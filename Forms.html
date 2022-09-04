@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>HTML Forms</h2>
+    <form action="backend.php">
+        <div>
+            <label for="name">Name:</label>  <!-- select a box -->
+            <input type="text" name="MyName" id="name">
+        </div>
+
+        <br> <!-- but not recommended -->
+        <div>
+            <label for="rol">Rol:</label>  <!-- select a box -->
+            <input type="text" name="MyRol" id="rol">
+        </div>
+
+        <br> <!-- but not recommended -->
+        <div>
+            <label for="email">Email:</label>  <!-- select a box -->
+            <input type="email" name="MyEmail" id="email">
+        </div>
+
+        <br> <!-- but not recommended -->
+        <div>
+            <label for="date">Date of Brith:</label>  <!-- select a box -->
+            <input type="date" name="MyDate" id="date">
+        </div>
+
+        <br> <!-- but not recommended -->
+        <div>
+            <label for="phone">Phone no:</label>  <!-- select a box -->
+            <input type="number" name="MyNumber" id="phone">
+        </div>
+
+        <br> <!-- but not recommended -->
+        <div>
+            <label for="18+?">Are you 18+ ?:</label>  <!-- select a box -->
+            <input type="checkbox" name="MyAge"  id="18+?" checked> <!-- checked is use for allready check the box -->
+        </div>
+
+        <br> <!-- but not recommended -->
+        <div>
+            <label for="comment">Comment:</label>  <!-- select a box -->
+            <br><!-- but not recommended --> <textarea name="MyText" id="comment" cols="30" rows="10"></textarea>
+        </div>
+
+        <br> <!-- but not recommended -->
+        <div>
+            <label for="gender">Gender:</label>  <!-- select a box -->
+            Male <input type="radio" name="MyGender" id="gender"> Female <input type="radio" name="MyGender"> Other <input type="radio" name="MyGender">
+        </div>
+        
+        <br> <!-- but not recommended -->
+        <div>
+            <label for="branch">Branch</label>
+            <select name="MyBsranch" id="branch">
+                <option value="it">IT</option>
+                <option value="ce">CE</option>
+                <option value="ite">ITE</option>
+                <option value="cse">CSE</option>
+                <option value="mlai">MLAI</option>
+                <option value="css">CSS</option>
+                <option value="ai">AI</option>
+            </select>
+        </div>
+
+        <br> <!-- but not recommended -->
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+
+    </form>
+</body>
+</html>
